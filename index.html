@@ -3,366 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/crown.png">
+    <link rel="shortcut icon" href="img/logo.png">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>Grand Hotel</title>
+    <title>Unique Restaurant</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <!-- navbar -->
-    <div class="navbar">
+<body> 
+    <div class="container">
+        <!-- navbar -->
 
-        <input type="checkbox" class="checkbox" id="click" hidden>
-
-
-        <!-- sidebar -->
-        <div class="sidebar">
-        <label for="click">
-            <div class="menu-icon">
-                <div class="line line-1"></div>
-                <div class="line line-2"></div>
-                <div class="line line-3"></div>
-            </div>
-        </label>
-
-        <ul class="social-icons-list">
-            <li>
-                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <ul class="social-icons">
+            <li class="social-icon-item">
+                <a href="#" class="social-icon-link" ><i class="fab fa-facebook-square social-icon"></i></a>
+            </li>
+            <li>    
+                <a href="#" class="social-icon-link" ><i class="fab fa-linkedin social-icon"></i></a>
             </li>
             <li>
-                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon-link" ><i class="fab fa-twitter-square social-icon"></i></a>
             </li>
             <li>
-                <a href="#" class="social-link"><i class="fab fa-google-plus-g"></i></a>
-            </li>
-            <li>
-                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon-link" ><i class="fab fa-instagram social-icon"></i></a>
             </li>
         </ul>
 
-            <div class="year">
-                <p>2020</p>     
-            </div>
-       </div>
-        <!-- end of sidebar -->
-
-        <!-- navigation -->
         <nav class="navigation">
-            <div class="navigation-header">
-                <h1 class="navigation-heading">Grand Hotel</h1>
-
-                <form class="navigation-search">
-                    <input type="text" class="navigation-search-input" placeholder="Search..." >
-                    <button class="navigation-search-btn">
-                        <i class="fas fa-search"></i>
-                    </button>
-
-                </form>
-            </div>
-
             <ul class="navigation-list">
-                <li class="navigation-item">
-                    <a href="#" class="navigation-link">home</a>
+                <li class="navigation-list-item">
+                    <a href="#" class="navigation-list-link">Reservations<i class="fas fa-angle-right dropdown-icon"></i> </a>
                 </li>
-                <li class="navigation-item">
-                    <a href="#" class="navigation-link">about us</a>
+                <li class="navigation-list-item">
+                    <a href="#" class="navigation-list-link">Locations<i class="fas fa-angle-right dropdown-icon"></i> </a>
                 </li>
-                <li class="navigation-item">
-                    <a href="#" class="navigation-link">rooms</a>
+                <li class="navigation-list-item">
+                    <a href="#" class="navigation-list-link">Delivery<i class="fas fa-angle-right dropdown-icon"></i> </a>
                 </li>
-                <li class="navigation-item">
-                    <a href="#" class="navigation-link">events</a>
+                <li class="navigation-list-item">
+                    <a href="#" class="navigation-list-link">Catering<i class="fas fa-angle-right dropdown-icon"></i> </a>
                 </li>
-                <li class="navigation-item">
-                    <a href="#" class="navigation-link">customers</a>
-                </li>
-                <li class="navigation-item">
-                    <a href="#" class="navigation-link">contact</a>
+                <li class="navigation-list-item">
+                    <a href="#" class="navigation-list-link">What's New<i class="fas fa-angle-right dropdown-icon"></i> </a>
                 </li>
             </ul>
-
-            <div class="copyright">
-            <p>&copy; 2020. Grand Hotel. All Rigths Reserved</p>
-            </div>
         </nav>
+        <!-- end of navbar -->
 
-       <!-- end of navigation -->
-    </div>
-    <!-- end of navbar` -->
-
-    <!-- header -->
-    <header class="header">
-        <div class="brand">
-            <div>
-                <img src="img/crown.png" width="80">
-            </div>
-            <h3 class="hotel-heading">Grand Hotel</h3>
-        </div>
-
-        <div class="banner">
-            <h1 class="banner-heading">Welcome to Grand Hotel</h1>
-            <p class="banner-paragraph">Make your life luxuorious</p>
-            <button class="banner-button">Check Out</button>
-        </div>
-    </header>
-    <!-- end of header -->
-
-    <!-- about us -->
-    <section class="about-us">
-        <div class="about-us-content">
-            <h1 class="about-us-heading">About Us</h1>
-            <div class="underline">
-                <div class="small-underline"></div>
-                <div class="big-underline"></div>
-            </div>
-            <h3 class="sub-heading">Grand Hotel</h3>
-            <p class="about-us-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quo. Excepturi sequi odit incidunt architecto corrupti error optio culpa ut placeat, assumenda sapiente possimus magni nisi eius, iure ad quo.</p>
-            <button class="about-us-btn">
-                Read More
-                <i class="fas fa-angle-double-right btn-arrow"></i>
-            </button>
-        </div>
-
-        <div class="about-us-images">
-            <img src="img/about-us-img-1.jpeg" class="image image-1">
-            <img src="img/about-us-img-2.jpeg" class="image image-2">
-            <img src="img/about-us-img-3.jpeg" class="image image-3">
-            <img src="img/about-us-img-4.jpeg" class="image image-4">
-        </div>
-    </section>
-    <!-- end of about us -->
-
-<!-- rooms -->
-<section class="rooms">
-    <div class="common-header">
-        <h1 class="common-heading">Rooms In Grand Hotel</h1>
-        <div class="underline">
-            <div class="small-underline"></div>
-            <div class="big-underline"></div>
-        </div>
-    </div>
-
-    <div class="rooms-cards-wrapper">
-        <div class="room-card">
-            <img src="img/single-room.jpeg" class="room-img">
-            <div class="room-card-content">
-                <h4 class="room-card-heading">Single Room</h4>
-                <p class="room-card-paragraph">Lorem ipsum dolor sit amet.</p>
-                <p class="room-price">$99.00</p>
-                <button class="room-card-btn">
-                    Book Now
-                    <i class="fas fa-angle-double-right btn-arrow"></i>
-                </button>
-            </div>
-        </div>
-        <div class="room-card">
-            <img src="img/double-room.jpeg" class="room-img">
-            <div class="room-card-content">
-                <h4 class="room-card-heading">Double Room</h4>
-                <p class="room-card-paragraph">Lorem ipsum dolor sit amet.</p>
-                <p class="room-price">$199.00</p>
-                <button class="room-card-btn">
-                    Book Now
-                    <i class="fas fa-angle-double-right btn-arrow"></i>
-                </button>
-            </div>
-        </div>
-        <div class="room-card">
-            <img src="img/lux.jpeg" class="room-img">
-            <div class="room-card-content">
-                <h4 class="room-card-heading">Lux</h4>
-                <p class="room-card-paragraph">Lorem ipsum dolor sit amet.</p>
-                <p class="room-price">$299.00</p>
-                <button class="room-card-btn">
-                    Book Now
-                    <i class="fas fa-angle-double-right btn-arrow"></i>
-                </button>
-            </div>
-        </div>
-        <div class="room-card">
-            <img src="img/vip.jpeg" class="room-img">
-            <div class="room-card-content">
-                <h4 class="room-card-heading">VIP</h4>
-                <p class="room-card-paragraph">Lorem ipsum dolor sit amet.</p>
-                <p class="room-price">$399.00</p>
-                <button class="room-card-btn">
-                    Book Now
-                    <i class="fas fa-angle-double-right btn-arrow"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <div class="rooms-btn-wrapper">
-        <button class="rooms-btn">Check All Rooms</button>
-    </div>
-</section>
-<!-- end of rooms -->
-
-
-    <!-- customers -->
-    <section class="customers">
-        <div class="common-header">
-            <h1 class="common-heading">Our Customers</h1>
-            <div class="underline">
-                <div class="small-underline"></div>
-                <div class="big-underline"></div>
-            </div>
-        </div>
-
-        <p class="customers-paragraph">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut perspiciatis dolor optio ullam, maiores mollitia maxime voluptate corporis temporibus laboriosam!
-        </p>
-
-        <div class="customers-card-wrapper">
-            <div class="customer-card">
-                <div class="customer-image-wrapper">
-                    <img src="img/customer-1.jpeg" class="customer-image">
+         <!-- header -->
+         <header class="header">
+            <div class="brand">
+                <div>
+                    <img src="img/logo-1.png" width="70" class="brand-img">
                 </div>
-
-                <div class="customer-info">
-                    <h3 class="customer-fullname">
-                        Helen Doe
-                    </h3>
-                    <p class="customer-paragraph-1">Happy Customer</p>
-                    <p class="customer-paragraph-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione id perferendis, quas officiis dolor sit. Eligendi accusantium consectetur architecto animi iste obcaecati, reprehenderit odit accusamus, dolorum recusandae enim suscipit ducimus.</p>
-                </div>
+                <h3 class="hotel-heading">Unique Restaurant</h3>
             </div>
-
-            <div class="customer-card">
-                <div class="customer-image-wrapper">
-                    <img src="img/customer-2.jpeg" class="customer-image">
-                </div>
-
-                <div class="customer-info">
-                    <h3 class="customer-fullname">
-                        Monica Smith
-                    </h3>
-                    <p class="customer-paragraph-1">Happy Customer</p>
-                    <p class="customer-paragraph-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione id perferendis, quas officiis dolor sit. Eligendi accusantium consectetur architecto animi iste obcaecati, reprehenderit odit accusamus, dolorum recusandae enim suscipit ducimus.</p>
-                </div>
+    
+            <div class="banner">
+                <h1 class="banner-heading">Welcome to Unique Restaurant</h1>
+                <p class="banner-paragraph">The Ultimate Gourmet Experience</p>
+                <button class="banner-button">Order Now</button>
             </div>
-        </div>
-    </section>
-    <!-- end of customers -->
+        </header>
+        <!-- end of header -->
 
-    <!-- footer -->
-    <footer class="footer">
-        <div class="main-part">
+        <!-- about-us -->
 
-            <div class="footer-list-wrapper">
-                <h3 class="footer-heading">Grand Hotel</h3>
-                <ul class="footer-list">
-                    <li class="footer-list-items">
-                        <a href="#" class="footer-list-link">
-                            support@grandhotel.com
-                        </a>
-                    </li>
-                    
-                    <li class="footer-list-items">
-                        <a href="#" class="footer-list-link">
-                            New York, Main Street 123
-                        </a>
-                    </li>
-                    
-                    <li class="footer-list-items">
-                        <a href="#" class="footer-list-link">
-                            +123 456 7890
-                        </a>
-                    </li>
-                </ul>
-                
+        <section class="about-us">
+            <div class="about-us-content">
+                <h1 class="about-us-heading">About Us</h1>
             </div>
+            <h2 class="sub-heading">Unique Restaurant</h2>
+            <p class="paragraph-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quibusdam at ullam voluptatum doloremque explicabo est? Natus cumque quos repellendus eius molestiae accusantium velit sit! Sit quaerat rerum incidunt ea quo eius, maxime perferendis asperiores, dolorem ab ex qui libero cupiditate debitis similique, optio molestiae. Minus, culpa iste? Nemo impedit voluptatem tempore dolorum qui sit quaerat numquam repellat, possimus quae fuga vero maxime incidunt beatae culpa explicabo quam, itaque perferendis iste, cum accusamus exercitationem similique? Voluptatem, architecto? Suscipit perspiciatis iure mollitia necessitatibus quam? Hic autem quos ipsam nemo delectus magnam labore eius quia, necessitatibus expedita libero placeat iusto similique omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, harum? Pariatur earum temporibus natus dolor tempora reprehenderit corrupti debitis fugit voluptatum obcaecati sit in minima, sint consequuntur? Placeat quo provident, cupiditate in magnam harum temporibus reprehenderit officia eveniet natus ea facere earum. Molestiae quasi sapiente inventore, necessitatibus rem pariatur, qui labore explicabo laudantium architecto repellat assumenda similique consequatur, blanditiis voluptate dolor! Illo magnam non sit ducimus cumque atque eum ratione illum numquam cum explicabo sequi optio odio est dolore beatae, molestiae officiis! Iusto cum molestiae animi odit, vero debitis adipisci enim quam eaque aut ipsam dolorum voluptas sunt ut aliquid velit quibusdam ratione natus, delectus ex possimus. Mollitia nihil harum sint itaque corporis commodi eius necessitatibus officiis deserunt voluptate accusantium asperiores nesciunt reprehenderit esse totam exercitationem vel et consectetur amet, sequi saepe. Veniam delectus impedit officiis dicta repellendus dolor inventore eveniet magni vero! Fugit ea ad maiores voluptates dignissimos illum voluptatem dolorem nam eligendi? Non quasi distinctio numquam quaerat, accusamus vitae obcaecati aperiam officiis! Deserunt, vero facere porro tempore ullam, repellat animi ratione laudantium voluptates dolore a nam, beatae exercitationem molestiae! Animi vitae error a eligendi libero officiis cumque. Dolor sed doloremque laborum dolores dolore a placeat enim quisquam perferendis?</p>
+        </section>
 
-            <div class="footer-list-wrapper">
-                <h3 class="footer-heading">Explore</h3>
-                <ul class="footer-list">
-                    <li class="footer-list-items">
-                        <a href="#" class="footer-list-link">
-                           Home
-                        </a>
-                    </li>
-                    
-                    <li class="footer-list-items">
-                        <a href="#" class="footer-list-link">
-                            About Us
-                        </a>
-                    </li>
-                    
-                   <li class="footer-list-items">
-                        <a href="#" class="footer-list-link">
-                           Rooms
-                        </a>
-                    
-                    </li>
+        <!-- end of about us -->
 
-                    <li class="footer-list-items">
-                        <a href="#" class="footer-list-link">
-                            Events
-                        </a>
-                    </li>
-
-                    <li class="footer-list-items">
-                        <a href="#" class="footer-list-link">
-                            Contact
-                        </a>
-                    </li>
-
-                </ul>
-                
-            </div>
-
-            <div class="contact">
-                <h3 class="footer-heading">
-                    Contact
+        <!-- cuisine -->
+            <section class="cuisine">
+                <h3 class="cuisine-heading">
+                    Taste the<br> Authentic<br> Italian <br>Cuisine....
                 </h3>
-                <p>Sign Up for News</p>
-                <form class="footer-form">
-                    <input type="text" class="footer-input" placeholder="Your Email...">
-                    <button class="footer-btn">
-                        Sign Up
-                    </button>
-                </form>
-            </div>
 
-            <div class="gallery">
-                <h3 class="footer-heading">Gallery</h3>
-                <div class="gallery-images">
-                    <div class="image-wrapper">
-                        <img src="img/gallery-img-1.jpeg" class="footer-image">
-                    </div>
-                    <div class="image-wrapper">
-                        <img src="img/gallery-img-2.jpeg" class="footer-image">
-                    </div>
-                    <div class="image-wrapper">
-                        <img src="img/gallery-img-3.jpeg" class="footer-image">
-                    </div>
-                    <div class="image-wrapper">
-                        <img src="img/gallery-img-4.jpeg" class="footer-image">
-                    </div>
-                    <div class="image-wrapper">
-                        <img src="img/gallery-img-5.jpeg" class="footer-image">
-                    </div>
-                    <div class="image-wrapper">
-                        <img src="img/gallery-img-6.jpeg" class="footer-image">
-                    </div>
+            </section>
+        <!-- end of cuisine -->
+
+        <footer class="footer">
+            <div class="creator-part">
+                <div class="copyright-text">
+                    <p>&copy; 2020. Unique Restaurant. All Rigths Reserved.</p>
+                </div>
+    
+                <div class="text-right">
+                    <p>Made with <i class="fas fa-heart"></i> By <span>ShubhamJain</span></p>
                 </div>
             </div>
-        </div>
-        </div>
+        </footer>
 
-        <div class="creator-part">
-            <div class="copyright-text">
-                <p>&copy; 2020. Grand Hotel. All Rigths Reserved.</p>
-            </div>
 
-            <div class="text-right">
-                <p>Made with <i class="fas fa-heart"></i> By <span>ShubhamJain</span></p>
-            </div>
-        </div>
-    </footer>
-    <!-- end of footer -->
+    </div>
 </body>
 </html>
